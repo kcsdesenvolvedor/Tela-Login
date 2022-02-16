@@ -16,6 +16,33 @@
     width: 500px;
 }
 
+
 label {
     margin-bottom: 5px;
+}
+
+#inputNovaSenha {
+    margin-bottom: 0px;
+}
+
+#divNovaSenha {
+    margin-top: 0px;
+}
+
+#novaSenha {
+    font-size: 14px;
+    color: red;
+}
+
+#inputRepetirSenha {
+    margin-bottom: 0px;
+}
+
+#divRepetirSenha {
+    margin-top: 0px;
+}
+
+#repetirSenha {
+    font-size: 14px;
+    color: red;
 }
