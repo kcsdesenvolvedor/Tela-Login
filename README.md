@@ -32,6 +32,6 @@ Repetir Senha => precisa ser a mesma do campo Nova Senha.
 
 ## Imagem do Projeto
 
-![Imagem do projeto](src/assets/imagemProjeto.png)
+![Imagem do projeto](Tela-Login/Tela-Login/src/assets/imagemProjeto.png)
 
 
