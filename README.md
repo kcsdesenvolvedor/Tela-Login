@@ -4,8 +4,8 @@ Projeto desenvolvido com [Angular CLI](https://github.com/angular/angular-cli) v
 
 ## Rodando o projeto
 
-1 - Abra o terminal da sua preferência(cmd, gitbash, PowerShell).
-2 - Insira o comando 'git clone https://github.com/kcsdesenvolvedor/Tela-Login.git'.
+1 - Abra o terminal da sua preferência(cmd, gitbash, PowerShell). &nbsp
+2 - Insira o comando 'git clone https://github.com/kcsdesenvolvedor/Tela-Login.git'. &nbsp
 3 - Navegue para pasta do projeto com o comando 'cd Tela-Login'
 4 - Execulte o comando 'npm install' para instalar a pasta node-module com todas as dependências do projeto.
 5 - Dê um run no projeto com o comando 'npm start' ou 'ng serve'.
