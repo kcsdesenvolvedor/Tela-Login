@@ -30,3 +30,8 @@ Nova Senha => pode ser qualquer uma, mas respeitando os critérios de criação 
 
 Repetir Senha => precisa ser a mesma do campo Nova Senha.
 
+## Imagem do Projeto
+
+![Imagem do projeto](src/assets/imagemProjeto.png)
+
+
