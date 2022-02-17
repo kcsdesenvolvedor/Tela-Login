@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -52,16 +52,23 @@ export class AppComponent implements OnInit {
       this.disabledButton = true;
     }else{
       validacaoRepetirSenha.innerText = '';
-      this.disabledButton = false;
+      
     }
   }
 
   createForm(){
     this.meuForm = this.formBuilder.group({
-      senhaAntiga: [''],
-      novaSenha: [''],
-      repetirSenha: ['']
+      email: ['', Validators.required],
+      senhaAntiga: ['', Validators.required],
+      novaSenha: ['', Validators.required],
+      repetirSenha: ['', Validators.required]
     })
+  }
+
+  verificarForm(){
+    if(this.meuForm.valid){
+      this.disabledButton = false;
+    }
   }
 
   open(content) {

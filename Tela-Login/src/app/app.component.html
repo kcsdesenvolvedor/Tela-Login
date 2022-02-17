@@ -2,11 +2,11 @@
   <h1>Acesso</h1>
   <div class="mb-6">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="text" class="form-control inputLogin" id="exampleInputEmail1"  autocomplete="off">
+    <input type="text" class="form-control inputLogin" id="exampleInputEmail1" (keyup)='verificarForm()'  autocomplete="off" formControlName="email">
   </div>
   <div class="mb-6">
     <label for="exampleInputPassword1" class="form-label">Senha Antiga</label>
-    <input type="password" class="form-control inputLogin" id="inputSenhaAntiga" autocomplete="off" formControlName="senhaAntiga">
+    <input type="password" class="form-control inputLogin" id="inputSenhaAntiga" (keyup)='verificarForm()' autocomplete="off" formControlName="senhaAntiga">
   </div>
   <div class="mb-6">
     <label for="exampleInputPassword1" class="form-label">Nova senha</label>
